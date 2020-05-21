@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <title>Theatre Tickets</title>
+    <meta name="author" content="Lewis Joyce">
+    <meta name="description" content="Theatre Tickets">
+    <link href="src/css/style.css" rel="stylesheet" type="text/css">
+    <script src="src/js/theatre-tickets.js"></script>
+</head>
+<body>
+<form id="form">
+    <fieldset class="container">
+        <legend>Theatre Tickets</legend>
+        <p>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Please enter your name..." required>
+        </p>
+        <p>
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="address" placeholder="Please enter your address..." required>
+        </p>
+        <p>
+            <label for="tickets">Number of Tickets:</label>
+            <input type="number" id="tickets" name="Tickets" min="1" max="20" placeholder="1 - 20" required>
+        </p>
+        <p>
+            <label for="shows">To See:</label>
+            <select id="shows">
+                <option>Phantom of the Opera - £79</option>
+                <option>Hamilton - £85</option>
+                <option>Lion King - £67</option>
+                <option>Miss Saigon - £83</option>
+            </select>
+        </p>
+        <p>
+            <label for="delivery">Method of Delivery:</label>
+            <select id="delivery">
+                <option>E-ticket - Free </option>
+                <option>Collect From Box Office - £1.50</option>
+                <option>Posted - £3.99</option>
+            </select>
+        </p>
+    </fieldset>
+    <p>
+        <button id="book" name="book" type="button" onclick="bookTickets()">Book Tickets</button>
+    </p>
+    <p id="output" class="container">
+
+    </p>
+</form>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <title>Fruit Machine</title>
+    <meta name="author" content="Lewis Joyce">
+    <meta name="description" content="Theatre Tickets">
+    <link href="src/css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<fieldset class="container">
+    <legend class="title">Fruit Machine</legend>
+    <div class="top-line">
+        <div class="top-left">
+            <span>Credits</span>
+            <p id="credits" class="value">0</p>
+        </div>
+        <div class="top-right">
+            <span>Winnings</span>
+            <p id="winnings" class="value">0</p>
+        </div>
+    </div>
+    <div class="slot-line">
+        <img src="" id="slot1" class="slot">
+        <img src="" id="slot2" class="slot">
+        <img src="" id="slot3" class="slot">
+    </div>
+    <div class="message-line">
+        <p id="message" class="message"></p>
+    </div>
+    <div class="button-line">
+        <button id="spin" name="spin" type="button" class="button" onclick="spinWheel()">Spin</button>
+        <button id="credit" name="credit" type="button" class="button" onclick="creditAccount()">Credit</button>
+        <button id="collect" name="collect" type="button" class="button" onclick="collectWinnings()">Collect</button>
+    </div>
+</fieldset>
+<script src="src/js/fruit-machine.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+

@@ -1,0 +1,78 @@
+body{
+    font-family: Roboto, sans-serif;
+}
+
+#output {
+    min-height: 50px;
+    border: 1px solid black;
+}
+
+.container{
+    width: 300px;
+}
+
+.title{
+    text-align: center;
+}
+
+.top-line{
+    width: 100%;
+    height: 110px;
+}
+
+.slot-line{
+    width: 100%;
+    height: 100px;
+}
+
+.message-line{
+    width: 100%;
+    height: 50px;
+}
+
+.top-left{
+    float: left;
+    text-align: center;
+}
+
+.top-right{
+    float: right;
+    text-align: center;
+}
+
+.value{
+    background: black;
+    color: green;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    font-size: 40px;
+    margin: 0;
+}
+
+.slot{
+    float: left;
+    height: 90px;
+    margin-right: 10px;
+}
+
+.message{
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    border: 1px solid black;
+    line-height: 40px;
+    margin: 0;
+}
+
+.button{
+    height: 50px;
+    width: 90px;
+    margin-right: 7px;
+}
+
+button:disabled,
+button[disabled]{
+    background-color: #ffbdbd;
+}
+  
